@@ -1,0 +1,26 @@
+# Lint: Checks spelling, indentation, syntax
+
+name: Auto Linter
+
+on: 
+  push:
+    paths: "*.py"
+
+jobs:
+  code:
+    runs-on: ubuntu-latest
+    # This step will clone the code automatically into the runner
+    
+    steps:
+      - name: Checkout/Clone the code
+        uses: actions/checkout@v4
+
+
+
+
+
+
+
+
+
+        
